@@ -1,5 +1,16 @@
 version = 1
 
 [[analyzers]]
-name = "sql"
+name = "go"
+enabled = true
+
+  [analyzers.meta]
+  import_root = "github.com/KhanShaad12/test2"
+
+[[analyzers]]
+name = "test-coverage"
+enabled = true
+
+[[analyzers]]
+name = "docker"
 enabled = true
